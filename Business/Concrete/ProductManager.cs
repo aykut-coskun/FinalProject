@@ -30,8 +30,7 @@ namespace Business.Concrete
             _productDal = productDal;
             _categoryService = categoryService;
         }
-       
-        
+            
         
         //Claim
         [SecuredOperation("product.add,admin")]     
